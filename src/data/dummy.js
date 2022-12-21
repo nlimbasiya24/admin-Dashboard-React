@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineCalendar, AiOutlineShoppingCart, AiOutlineAreaChart, AiOutlineBarChart, AiOutlineStock } from 'react-icons/ai';
-import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/fi';
+import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart2, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/fi';
 import { BsKanban, BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
 import { BiColorFill } from 'react-icons/bi';
 import { IoMdContacts } from 'react-icons/io';
@@ -616,40 +616,40 @@ export const chatData = [
 export const earningData = [
   {
     icon: <MdOutlineSupervisorAccount />,
-    amount: '39,354',
-    percentage: '-4%',
-    title: 'Customers',
-    iconColor: '#03C9D7',
-    iconBg: '#E5FAFB',
-    pcColor: 'red-600',
+    amount: "93,345",
+    percentage: "-78%",
+    title: "Customers",
+    iconColor: "#8BE78B",
+    iconBg: "#33373E",
+    pcColor: "red-600",
   },
   {
     icon: <BsBoxSeam />,
-    amount: '4,396',
-    percentage: '+23%',
-    title: 'Products',
-    iconColor: 'rgb(255, 244, 229)',
-    iconBg: 'rgb(254, 201, 15)',
-    pcColor: 'green-600',
+    amount: "4,396",
+    percentage: "+23%",
+    title: "Products",
+    iconColor: "rgb(255, 244, 229)",
+    iconBg: "rgb(100, 201, 15)",
+    pcColor: "green-600",
   },
   {
-    icon: <FiBarChart />,
-    amount: '423,39',
-    percentage: '+38%',
-    title: 'Sales',
-    iconColor: 'rgb(228, 106, 118)',
-    iconBg: 'rgb(255, 244, 229)',
+    icon: <FiBarChart2 />,
+    amount: "423,39",
+    percentage: "+38%",
+    title: "Sales",
+    iconColor: "rgb(100, 106, 118)",
+    iconBg: "rgb(100, 244, 229)",
 
-    pcColor: 'green-600',
+    pcColor: "green-600",
   },
   {
     icon: <HiOutlineRefresh />,
-    amount: '39,354',
-    percentage: '-12%',
-    title: 'Refunds',
-    iconColor: 'rgb(0, 194, 146)',
-    iconBg: 'rgb(235, 250, 242)',
-    pcColor: 'red-600',
+    amount: "39,354",
+    percentage: "-12%",
+    title: "Refunds",
+    iconColor: "rgb(100, 194, 146)",
+    iconBg: "rgb(100, 150, 242)",
+    pcColor: "red-600",
   },
 ];
 
