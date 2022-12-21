@@ -70,7 +70,7 @@ const Ecommerce = () => {
           </div>
         </div>
       </div>
-        {/* second part */}
+      {/* second part */}
       <div className="flex gap-10 flex-wrap justify-center">
         <div className="bg-slate-200 dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-/6  ">
           <div className="flex justify-between">
@@ -178,7 +178,6 @@ const Ecommerce = () => {
           </div>
         </div>
       </div>
-      
       {/* third part */}
 
       <div className="flex gap-10 m-4 flex-wrap justify-center">

@@ -22,22 +22,21 @@ import product5 from './product5.jpg';
 import product6 from './product6.jpg';
 import product7 from './product7.jpg';
 
-
 export const gridOrderImage = (props) => (
   <div>
     <img
-      className='rounded-xl h-20 md:ml-3'
+      className="rounded-xl h-20 md:ml-3"
       src={props.ProductImage}
-      alt='order-item'
+      alt="order-item"
     />
   </div>
 );
 
 export const gridOrderStatus = (props) => (
   <button
-    type='button'
+    type="button"
     style={{ background: props.StatusBg }}
-    className='text-white py-1 px-2 capitalize rounded-2xl text-md'
+    className="text-white py-1 px-2 capitalize rounded-2xl text-md"
   >
     {props.Status}
   </button>
@@ -62,18 +61,18 @@ export const kanbanGrid = [
     allowToggle: true },
 ];
 const gridEmployeeProfile = (props) => (
-  <div className='flex items-center gap-2'>
+  <div className="flex items-center gap-2">
     <img
-      className='rounded-full w-10 h-10'
+      className="rounded-full w-10 h-10"
       src={props.EmployeeImage}
-      alt='employee'
+      alt="employee"
     />
     <p>{props.Name}</p>
   </div>
 );
 
 const gridEmployeeCountry = (props) => (
-  <div className='flex items-center justify-center gap-2'>
+  <div className="flex items-center justify-center gap-2">
     <GrLocation />
     <span>{props.Country}</span>
   </div>
@@ -121,11 +120,11 @@ export const EditorData = () => (
   </div>
 );
 const customerGridImage = (props) => (
-  <div className='image flex gap-4'>
+  <div className="image flex gap-4">
     <img
-      className='rounded-full w-10 h-10'
+      className="rounded-full w-10 h-10"
       src={props.CustomerImage}
-      alt='employee'
+      alt="employee"
     />
     <div>
       <p>{props.CustomerName}</p>
@@ -135,8 +134,8 @@ const customerGridImage = (props) => (
 );
 
 const customerGridStatus = (props) => (
-  <div className='flex gap-2 justify-center items-center text-gray-700 capitalize'>
-    <p style={{ background: props.StatusBg }} className='rounded-full h-3 w-3' />
+  <div className="flex gap-2 justify-center items-center text-gray-700 capitalize">
+    <p style={{ background: props.StatusBg }} className="rounded-full h-3 w-3" />
     <p>{props.Status}</p>
   </div>
 );
