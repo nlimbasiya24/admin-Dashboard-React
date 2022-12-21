@@ -21,23 +21,23 @@ import product4 from './product4.jpg';
 import product5 from './product5.jpg';
 import product6 from './product6.jpg';
 import product7 from './product7.jpg';
-import product8 from './product8.jpg';
+
 
 export const gridOrderImage = (props) => (
   <div>
     <img
-      className="rounded-xl h-20 md:ml-3"
+      className='rounded-xl h-20 md:ml-3'
       src={props.ProductImage}
-      alt="order-item"
+      alt='order-item'
     />
   </div>
 );
 
 export const gridOrderStatus = (props) => (
   <button
-    type="button"
+    type='button'
     style={{ background: props.StatusBg }}
-    className="text-white py-1 px-2 capitalize rounded-2xl text-md"
+    className='text-white py-1 px-2 capitalize rounded-2xl text-md'
   >
     {props.Status}
   </button>
@@ -62,18 +62,18 @@ export const kanbanGrid = [
     allowToggle: true },
 ];
 const gridEmployeeProfile = (props) => (
-  <div className="flex items-center gap-2">
+  <div className='flex items-center gap-2'>
     <img
-      className="rounded-full w-10 h-10"
+      className='rounded-full w-10 h-10'
       src={props.EmployeeImage}
-      alt="employee"
+      alt='employee'
     />
     <p>{props.Name}</p>
   </div>
 );
 
 const gridEmployeeCountry = (props) => (
-  <div className="flex items-center justify-center gap-2">
+  <div className='flex items-center justify-center gap-2'>
     <GrLocation />
     <span>{props.Country}</span>
   </div>
@@ -121,11 +121,11 @@ export const EditorData = () => (
   </div>
 );
 const customerGridImage = (props) => (
-  <div className="image flex gap-4">
+  <div className='image flex gap-4'>
     <img
-      className="rounded-full w-10 h-10"
+      className='rounded-full w-10 h-10'
       src={props.CustomerImage}
-      alt="employee"
+      alt='employee'
     />
     <div>
       <p>{props.CustomerName}</p>
@@ -135,8 +135,8 @@ const customerGridImage = (props) => (
 );
 
 const customerGridStatus = (props) => (
-  <div className="flex gap-2 justify-center items-center text-gray-700 capitalize">
-    <p style={{ background: props.StatusBg }} className="rounded-full h-3 w-3" />
+  <div className='flex gap-2 justify-center items-center text-gray-700 capitalize'>
+    <p style={{ background: props.StatusBg }} className='rounded-full h-3 w-3' />
     <p>{props.Status}</p>
   </div>
 );
@@ -616,40 +616,40 @@ export const chatData = [
 export const earningData = [
   {
     icon: <MdOutlineSupervisorAccount />,
-    amount: "93,345",
-    percentage: "-78%",
-    title: "Customers",
-    iconColor: "#8BE78B",
-    iconBg: "#33373E",
-    pcColor: "red-600",
+    amount: '93,345',
+    percentage: '-78%',
+    title: 'Customers',
+    iconColor: '#8BE78B',
+    iconBg: '#33373E',
+    pcColor: 'red-600',
   },
   {
     icon: <BsBoxSeam />,
-    amount: "4,396",
-    percentage: "+23%",
-    title: "Products",
-    iconColor: "rgb(255, 244, 229)",
-    iconBg: "rgb(100, 201, 15)",
-    pcColor: "green-600",
+    amount: '4,396',
+    percentage: '+23%',
+    title: 'Products',
+    iconColor: 'rgb(255, 244, 229)',
+    iconBg: 'rgb(100, 201, 15)',
+    pcColor: 'green-600',
   },
   {
     icon: <FiBarChart2 />,
-    amount: "423,39",
-    percentage: "+38%",
-    title: "Sales",
-    iconColor: "rgb(100, 106, 118)",
-    iconBg: "rgb(100, 244, 229)",
+    amount: '423,39',
+    percentage: '+38%',
+    title: 'Sales',
+    iconColor: 'rgb(100, 106, 118)',
+    iconBg: 'rgb(100, 244, 229)',
 
-    pcColor: "green-600",
+    pcColor: 'green-600',
   },
   {
     icon: <HiOutlineRefresh />,
-    amount: "39,354",
-    percentage: "-12%",
-    title: "Refunds",
-    iconColor: "rgb(100, 194, 146)",
-    iconBg: "rgb(100, 150, 242)",
-    pcColor: "red-600",
+    amount: '39,354',
+    percentage: '-12%',
+    title: 'Refunds',
+    iconColor: 'rgb(100, 194, 146)',
+    iconBg: 'rgb(100, 150, 242)',
+    pcColor: 'red-600',
   },
 ];
 
