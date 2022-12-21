@@ -18,6 +18,7 @@ const Ecommerce = () => {
   const { currentColor, currentMode } = useStateContext();
 
   return (
+    // first part
     <div className="mt-24">
       <div className="flex flex-wrap lg:flex-nowrap justify-center ">
         <div className="flex m-3 flex-wrap justify-center gap-1 items-center">
@@ -69,7 +70,7 @@ const Ecommerce = () => {
           </div>
         </div>
       </div>
-
+        {/* second part */}
       <div className="flex gap-10 flex-wrap justify-center">
         <div className="bg-slate-200 dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-/6  ">
           <div className="flex justify-between">
@@ -177,17 +178,19 @@ const Ecommerce = () => {
           </div>
         </div>
       </div>
+      
+      {/* third part */}
 
       <div className="flex gap-10 m-4 flex-wrap justify-center">
-        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl">
-          <div className="flex justify-between items-center gap-2">
-            <p className="text-xl font-semibold">Recent Transactions</p>
+        <div className="bg-slate-200 dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl">
+          <div className="flex justify-between">
+            <p className="text-lg font-medium">Recent Transactions</p>
             <DropDown currentMode={currentMode} />
           </div>
-          <div className="mt-10 w-72 md:w-400">
+          <div className="mt-10 w-10 md:w-400">
             {recentTransactions.map((item) => (
               <div key={item.title} className="flex justify-between mt-4">
-                <div className="flex gap-4">
+                <div className="flex gap-2">
                   <button
                     type="button"
                     style={{
@@ -220,7 +223,7 @@ const Ecommerce = () => {
             <p className="text-gray-400 text-sm">36 Recent Transactions</p>
           </div>
         </div>
-        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760">
+        <div className="bg-slate-200 dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760">
           <div className="flex justify-between items-center gap-2 mb-10">
             <p className="text-xl font-semibold">Sales Overview</p>
             <DropDown currentMode={currentMode} />
